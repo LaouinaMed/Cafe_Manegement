@@ -19,6 +19,7 @@ import java.io.Serializable;
 @Entity
 @DynamicInsert
 @DynamicUpdate
+@Table(name="product")
 public class Product implements Serializable {
     public static final Long serialVersionUid = 123456L;
     @Id
